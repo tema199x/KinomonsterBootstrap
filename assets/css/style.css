@@ -1,0 +1,165 @@
+.header a, a:hover{
+    color: #53f1b5;
+    text-decoration: none;
+} 
+
+.header h1 {
+    letter-spacing: 15px;
+    font-size: 300%;
+}
+
+.header p {
+    color: white !important; 
+    font-size: 90%;
+    letter-spacing: 3px;
+}
+
+.nav-pills li.active a {
+    background-color: #489d9d;
+    color: #d8c6c6;
+}
+
+.nav-pills li.active a:hover {
+    background-color: #327474;
+    color: #d8c6c6;
+}
+
+.nav-pills li.active a:focus {
+    background-color: #327474;
+    color: #d8c6c6;
+}
+
+.nav-pills a {
+    color: white;
+}
+
+.nav-pills a:hover {
+    background-color: #327474 !important;
+    color: #d8c6c6;
+}
+
+.nav-pills a:focus {
+    background-color: #327474 !important;
+    color: #d8c6c6;
+}
+
+.navbar-inverse {
+    padding: 10px;
+}
+
+.nav-pills>li+li {
+    margin-left: 10px;
+}
+
+.clear {
+    /* Отменяет обтекание элемента одновременно с правого и левого края */
+    clear: both;
+    height: 63px;
+}
+
+/* прижимает footer к низу страницы */
+.wrapper {  
+    min-height: 100%;
+}
+/* прижимает footer к низу страницы */
+html, body {
+    height: 100%;
+}
+
+footer {
+    color: #666;
+    background-color: #222;
+    padding: 17px 0 18px 0;
+    border-top: 1px solid black;
+}
+
+footer a{
+    color: #999;
+}
+
+footer a:hover {
+    color: #efefef;
+}
+
+.films_blck {
+    text-align: center;
+}
+
+.films_blck img {
+    margin-bottom: 5%;
+    border-radius: 5xp;
+    border: solid 5px #dad7d5;
+    width: 100%;
+}
+
+.film_label {
+    padding: 2%;
+    margin-bottom: 4%;
+}
+
+.margin-8 {
+    margin-top: 8%;
+}
+
+.panel {
+    border: none;
+}
+
+.panel-body {
+    background-color: #f9f9f9;
+}
+
+.panel-info>.panel-heading {
+    background-color: #f0ad4e;
+    color: white;
+    border-color: transparent;
+}
+
+.sitebar-header {
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+.form-control {
+    font-size: 14px;
+}
+
+.input-lg {
+    font-size: 14px;
+}
+
+.form-control {
+    border-radius: 0px;
+}
+
+.list-group-warning {
+    color: #8a6d3b;
+    background-color: #f9f9f9;
+}
+
+.badge {
+    background-color: #000000;
+}
+
+@media (max-width: 768px) {
+    .nav-pills li {
+        float: none;
+    }
+
+    .nav-pills {
+        text-align: center;
+    }
+
+    .header h1 {
+        letter-spacing: 5px;
+        font-size: 350%;
+    }
+
+    .header p {
+        font-size: 111%;
+    }
+
+    .header_text {
+        text-align: center;
+    }
+}
