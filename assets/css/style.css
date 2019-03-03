@@ -157,6 +157,10 @@ textarea.form-control {
     height: 200px;
 }
 
+.table>tbody>tr>td {
+    vertical-align: middle;
+}
+
 @media (max-width: 768px) {
     .nav-pills li {
         float: none;
