@@ -141,6 +141,22 @@ footer a:hover {
     background-color: #000000;
 }
 
+.info-block {
+    font-size: 120%;
+}
+
+.info-block.badge {
+    font-size: 80%;
+}
+
+.info-block>span {
+    margin-right: 3%;
+}
+
+textarea.form-control {
+    height: 200px;
+}
+
 @media (max-width: 768px) {
     .nav-pills li {
         float: none;
